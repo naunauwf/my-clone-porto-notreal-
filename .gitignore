@@ -3,6 +3,9 @@
 # md
 *.md
 
+# public/static files
+/public/images/me.jpg
+
 # dependencies
 /node_modules
 /.pnp
