@@ -9,11 +9,15 @@
   --middle-content-2: #e0f0f1;
   --footer-content: #fef4e0;
   --bg-profile-footer: #bfddde;
+  --font-jakarta-sans: var(--font-plus-jakarta-sans);
 }
 
 @theme inline {
-  --font-sans: var(--font-plus-jakarta-sans);
-  --logo: var(--logo);
+  --font-sans: var(--font-jakarta-sans);
+  --color-main-color: var(--logo);
+  --color-main-white: var(--bg-body);
+  --color-header-content: var(--header-content);
+  --color-profile-header: var(--bg-profile-header);
 }
 
 body {
