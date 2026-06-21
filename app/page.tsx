@@ -1,7 +1,11 @@
+import Header from "./components/Header";
+import PartnerSection from "./components/PartnerSection";
+
 export default function Home() {
   return (
     <main>
-      <h1>hello world!</h1>
+      <Header />
+      <PartnerSection />
     </main>
   );
 }
